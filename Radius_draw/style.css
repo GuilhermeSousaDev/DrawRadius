@@ -1,0 +1,25 @@
+.div1 {
+    width: 200px;
+    height: 200px;
+    border: white;
+    background: black;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container label {
+    font-family: sans-serif;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container2 label {
+    font-family: sans-serif;
+}
