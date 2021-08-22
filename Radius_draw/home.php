@@ -13,14 +13,15 @@ if(!isset($_SESSION['logado'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>DrawRadius</title>
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="perfil.php?user_id=<?php echo $_SESSION['user_id']?>">Perfil</a></li>
-            <li><a href="draw.php">Desenhar</a></li>
-        </ul>
+        <h1>Draw</h1>
+        <a href="home.php">Home</a>
+        <a href="draw.php">Desenhar</a>
+        <a href="perfil.php">Perfil</a>
     </nav>
     <?php
         echo $_SESSION['user_id'];
@@ -36,7 +37,7 @@ if(!isset($_SESSION['logado'])) {
             width: 200px;
             height: 200px;
             background: <?php echo $row['color']?>;"></div>
-            <a href="draw.php?user_id=<?php echo $row_u['user_id']?>"><?php echo $row_u['username']?></a>
+            <a href="visit_perfil.php?user_id=<?php echo $row_u['user_id']?>"><?php echo $row_u['username']?></a>
             <a href="viewdraw.php?draw_id=<?php echo $row['draw_id']?>&user_id=<?php echo $row['user_id']?>">Ver Draw</a>
             <br>
     <?php }
