@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.draw {
+    margin-left: 20px;
+}

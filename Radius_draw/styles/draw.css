@@ -1,0 +1,19 @@
+#container_draw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#create_draw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
